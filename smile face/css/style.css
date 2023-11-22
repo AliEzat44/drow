@@ -1,0 +1,59 @@
+.container {
+  background-color: #f6f6f6;
+  width: 600px;
+  height: 600px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+.container h1 {
+  position: absolute;
+  bottom: -29px;
+  left: 254px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.container .face {
+  background-color: #ff0;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 6px solid #000;
+}
+.container .face .eye:nth-child(1) {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: #000;
+  border-radius: 50%;
+  top: 89px;
+  left: 100px;
+}
+.container .face .eye:nth-child(2) {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: #000;
+  border-radius: 50%;
+  top: 89px;
+  right: 100px;
+}
+.container .face .smile {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  position: absolute;
+  left: 45px;
+  top: 40px;
+  border-color: transparent #000 #000 transparent;
+  border-style: solid;
+  border-width: 7px;
+  transform: rotate(43deg);
+}
